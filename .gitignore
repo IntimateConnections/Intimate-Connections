@@ -1,0 +1,38 @@
+# Ignore node_modules and package dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore MacOS and system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files (API keys, credentials, etc.)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore IDE config files
+.vscode/
+.idea/
+*.iml
+
+# Ignore any personal or sensitive data files
+credentials.json
+*.key
+*.pem
+
+# Ignore build/compiled output
+/dist/
+/build/
+
+# Ignore GitHub files (optional if using GitHub)
+.github/
