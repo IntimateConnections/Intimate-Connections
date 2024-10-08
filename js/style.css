@@ -1,0 +1,82 @@
+
+/* General Body Styling */
+body {
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section Styling */
+header {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('background-image.jpg') no-repeat center center/cover; /* Use your own background image */
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ff0033;
+}
+
+header h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #ff0033;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #cc0029;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+}
+
+.grid-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background-color: #2e2e2e;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.grid-item button {
+    background-color: #ff0033;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    color: #ccc;
+}
+
+footer a {
+    color: #ff0033;
+    margin: 0 10px;
+    text-decoration: none;
+}
